@@ -641,33 +641,34 @@ sup {
 	color: #ffffff;
 }
 #content h2 {
-	background: #2f2b3f;
+	background: #333333;
 }
 #logout {
-    background: #7962f2;
+    background: #555555;
 }
 #logout:hover {
-    background: #7962f2;
+    color: #333333;
+    background: #ffffff;
 }
 td {
-	background: #2f2b3f;
+	background: #333;
 	border: 1px solid rgba(0,0,0,0.1);
 }
 input[type="checkbox"] {
 	filter: invert();
 }
 .odd td, .odd th {
-    background: #2f2b3f;
+    background: #444444;
 }
 tbody tr:hover td, tbody tr:hover th {
-    background: #2f2b3f;
+    background: #222;
 }
 th {
-	background: #2f2b3f;
+	background: #333;
 	border: 1px solid rgba(0,0,0,0.1);
 }
 thead td, thead th {
-    background: #4c4665;
+    background: #5b5b5b;
     color: #ffffff;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -818,7 +819,7 @@ input[type="submit"] {
 	font-weight: bold;
 }
 a, a:link {
-    color: #7962f2;
+    color: #fff;
     transition: all .2s;
 }
 td{
@@ -837,7 +838,7 @@ div input[name="delete"]:hover, div input[name="drop"]:hover, div input[name="tr
     background: #222222;
 }
 td a, td a:visited, th a, th a:visited {
-    color: #7962f2;
+    color: #fff;
 }
 a:link:hover, a:visited:hover {
     color: #4a39a4;
@@ -892,7 +893,7 @@ textarea {
 }
 #menu .links a:hover {
     background: #ffffff;
-    color: #7962f2;
+    color: #bbb;
 }
 #content .links .active {
     background: rgba(255,255,255,0.2);
