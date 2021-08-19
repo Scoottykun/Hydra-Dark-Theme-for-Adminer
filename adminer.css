@@ -708,6 +708,7 @@ form table {
 @media all and (min-width: 1600px){
     #menu {
         width: 25em;
+        padding-top: 98px;
     }
 }
 #menu #dbs {
@@ -725,7 +726,7 @@ form table {
 #menu .links {
 	/*background-color: #7962f2;
 	background-image: url('side-menu-bg.png');*/
-	padding-bottom: 158px;
+    padding-bottom: 20px;
 	background-size: 100%;
 	background-position: bottom;
     border: none;
