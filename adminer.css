@@ -755,6 +755,11 @@ form table {
 	font-weight: 700;
 	color: rgba(255,255,255,0.3);
 }
+@media all and (min-width: 1600px){
+    #breadcrumb {
+        left: 26em;
+    }
+}
 #menu select {
 	background: transparent;
 	border: none;
