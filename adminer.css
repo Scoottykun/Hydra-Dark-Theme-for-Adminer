@@ -23,7 +23,7 @@ body {
 	overflow: auto;
 }
 * {
-	outline-color: #7962f2;
+	outline-color: #ffffff;
 }
 ::selection {
 	background: #4ca0ea;
@@ -210,7 +210,7 @@ a #h1 {
 	transition: all .2s
 }
 #breadcrumb a:hover {
-	color: #4a39a4;
+	color: #aaa;
 	text-decoration: none
 }
 #logout {
@@ -285,7 +285,8 @@ input[type=submit] {
 	transition: all .2s
 }
 input[type=submit]:hover {
-	background: #4a39a4
+	background: #fff;
+    color: #333;
 }
 input[type=button][disabled],
 input[type=submit][disabled] {
@@ -686,7 +687,7 @@ form table {
 	border-top-right-radius: 7px;
 }
 #content .links a {
-    background: #7962f2;
+    background: #555555;
     color: #ffffff;
 }
 #menu {
@@ -733,7 +734,7 @@ form table {
     color: #fff;
 }
 #breadcrumb a {
-	color: #7962f2
+	color: #fff
 }
 #breadcrumb {
 	text-transform: uppercase;
@@ -804,7 +805,7 @@ form table {
 }
 #tables a:hover {
     background: transparent;
-    color: #7962f2;
+    color: #aaa;
 }
 input[type="search"]{
 	background: rgba(255,255,255,0.2);
@@ -813,7 +814,7 @@ input[type="search"]{
 	padding-left:10px;
 }
 input[type="submit"] {
-    background: #7962f2;
+    background: #555555;
     color: #ffffff;
     text-transform: uppercase;
 	font-weight: bold;
@@ -829,10 +830,10 @@ td{
     background-color: #222222;
 }
 div input[name="delete"], div input[name="drop"], div input[name="truncate"], input[value="Kill"] {
-	background: repeating-linear-gradient(-55deg, #7962f2, #7962f2 5px, #4a39a4 5px, #4a39a4 10px);
+	background: repeating-linear-gradient(-55deg, #333333, #333333 5px, #777777 5px, #777777 10px)
 }
 div input[name="delete"]:hover, div input[name="drop"]:hover, div input[name="truncate"]:hover, input[value="Kill"]:hover {
-    background: repeating-linear-gradient(-55deg, #4a39a4, #4a39a4 5px, #7962f2 5px, #7962f2 10px);
+    background: repeating-linear-gradient(-55deg, #333333, #333333 5px, #777777 5px, #777777 10px)
 }
 .js .checkable .checked td, .js .checkable .checked th {
     background: #222222;
@@ -841,10 +842,10 @@ td a, td a:visited, th a, th a:visited {
     color: #fff;
 }
 a:link:hover, a:visited:hover {
-    color: #4a39a4;
+    color: #ffffff;
 }
 #tables .select:hover {
-    background: #7962f2;
+    background: #363636;
     color: #fff;
 }
 input[type="button"][disabled], input[type="submit"][disabled] {
@@ -862,7 +863,7 @@ input[type="button"][disabled], input[type="submit"][disabled] {
     border-radius: 1000px;
 }
 table{
-	background: #2f2b3f;
+	background: #333333;
 }
 #content select {
 	background: rgba(255,255,255,0.1);
@@ -888,8 +889,8 @@ textarea {
 	color: #ffffff;
 }
 #content .links a:hover {
-    background: #4a39a4;
-    color: #fff;
+    background: #fff;
+    color: #333;
 }
 #menu .links a:hover {
     background: #ffffff;
@@ -977,6 +978,7 @@ a[href="#import"]:hover{
 	margin-top: -9px;
 }
 #lang{
+    display: none;
 	box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 	background: #7962f2;
 	color: #ffffff;
