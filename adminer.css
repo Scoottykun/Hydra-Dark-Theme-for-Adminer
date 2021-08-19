@@ -254,7 +254,7 @@ a:link {
 }
 a:hover,
 a:link:hover {
-	color: #4a39a4;
+	color: #aaa;
 	text-decoration: none
 }
 input:not([type]),
@@ -843,7 +843,7 @@ td a, td a:visited, th a, th a:visited {
     color: #fff;
 }
 a:link:hover, a:visited:hover {
-    color: #ffffff;
+    color: #aaa;
 }
 #tables .select:hover {
     background: #363636;
